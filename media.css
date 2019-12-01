@@ -1,0 +1,282 @@
+@media (max-width: 1580px) {
+
+.for-whom-cor{
+    padding-right: 310px;
+}
+
+.advantages-cor{
+    padding-left: 300px;
+}
+
+.testimonial-pic{
+    left: -120px;
+}
+
+}
+
+@media (max-width: 1170px) {
+
+.menu-icon{
+    display: inline-block;
+    z-index: 2000;
+    float: right;
+    margin-left: 15px;
+}
+
+.nav{
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-flow: column wrap; 
+    align-items: flex-end;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    padding: 45px 0;
+    padding-top: 140px;
+    height: 100vh;
+}
+
+.nav li{
+    padding: 0 0 25px 0;
+    margin: 0;
+}
+
+.nav li:last-child{
+    padding-bottom: 0;
+} 
+  
+.nav a{
+    font-size: 24px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.6em;
+    color: #4d4d4d;
+}
+
+li.current_page_item a {
+    color: #f0dc1b;
+}
+
+.main-menu{
+	order: 4;
+}
+
+.header-cont-logo{
+	width: 60%;
+}
+
+.header-cont-contacts{
+	padding: 0 15px;
+}
+
+.advantages-pic{
+    left: -80px;
+}
+
+.advantages-cor{
+    padding-left: 380px;
+}
+
+.program-cor{
+    padding-right: 310px;
+}
+
+.testimonials-cor{
+    padding-left: 170px;
+}
+
+}
+
+@media (max-width: 999px) {
+
+.contacts-wrap{
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-wrap{
+	margin-top: 45px;
+}
+
+}
+
+@media (max-width: 840px) {
+
+.for-whom-pic img{
+	width: 300px;
+}
+
+.for-whom-cor{
+    padding-right: 50px;
+}
+
+.advantages-pic {
+	top: 50px;
+}
+
+.advantages-pic img{
+	width: 300px;  
+}
+
+.advantages-cor{
+    padding-left:220px;
+}
+
+.program-pic img{
+	width: 300px;
+}
+
+.program-pic{
+	top: 50px;
+}
+
+.program-cor{
+	padding-right: 150px;
+}
+
+.testimonial-pic img{
+	width: 300px;
+}
+
+.testimonial-pic {
+	top: 70px;
+}
+
+.testimonials-cor{
+	padding-left: 0;
+}
+
+.baner-cont-title h1{
+	font-size: 62px;
+}
+
+.form-wrap{
+	flex-direction: column;
+}
+
+.submit-desktop{
+	display: none;
+}
+
+.submit-mobile{
+	display: block;
+}
+
+}
+
+@media (max-width: 786px) {
+
+.prices-wrap{
+	flex-direction: column;
+}
+
+.prices-item{
+	width: 100%;
+}
+
+}
+
+@media (max-width: 692px){
+
+.header-cont-contacts{
+	display: none;
+}
+
+.testimonial-pic{
+	display: none;
+}
+
+.slider{
+	padding-left: 0;
+}
+
+}
+
+@media (max-width: 640px){
+
+.for-whom-item{
+	width: 100%;
+}
+
+.for-whom-cor,
+.program-cor{
+    padding-right: 0;
+}
+
+.advantages-cor{
+	padding-left: 0;
+}
+
+.for-whom-pic,
+.advantages-pic,
+.program-pic{
+	display: none;
+}
+
+.footer-cont{
+	flex-direction: column;
+}
+
+.footer-copy{
+	padding: 12px 0;
+}
+
+}
+
+@media (max-width: 479px){
+
+.baner-cont-title h1{
+	font-size: 48px;
+}
+
+.header-cont-button{
+	display: none;
+}
+
+.testimonials-cont{
+	flex-direction: column;
+}
+
+.contacts-item input{
+	width: 300px;
+}
+
+.contacts-item textarea{
+    width: 300px;
+}
+
+.form-wrap{
+	width: 100%;
+}
+
+.form-item{
+	margin-left: 0;
+}
+
+.prices-item table{
+	width: 100%;
+}
+
+h2{
+    font-size: 38px;
+}
+
+.nav{
+    padding-top: 90px;
+}
+
+}
+
+@media (max-width: 390px){
+
+.slider-dots_item{
+	display: none;
+}
+
+.baner-cont-title h1{
+	font-size: 40px;
+}
+}
